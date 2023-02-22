@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+.profile-container {
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: fit-content;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+  background-image: url("cool-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.profile-entries {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.profile-values {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.profile-detail {
+  height: 30px;
+}
+
+.profile-span {
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.logout-btn {
+  background: transparent;
+  width: 20%;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Alata", sans-serif;
+}
+.update-btn {
+  background: transparent;
+  margin-top: 10px;
+  width: 20%;
+  color: white;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Alata", sans-serif;
+}

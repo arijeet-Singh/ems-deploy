@@ -1,0 +1,55 @@
+.auth-form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    background-image: url("cool-background.png");
+    font-family: "Alata", sans-serif;
+  }
+  
+  .form-input {
+    background: transparent;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Alata", sans-serif;
+  }
+  .form-input::placeholder{
+    font-size: 15px;
+    color: white;
+    font-family: "Alata", sans-serif;
+  }
+  .auth-button {
+    background: transparent;
+    text-decoration: underline;
+    width: 35%;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "Alata", sans-serif;
+  }
+  .auth-choice {
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .visible{
+    margin-left: -25px;
+  }
+  .not-visible{
+    margin-left: -25px;
+  }

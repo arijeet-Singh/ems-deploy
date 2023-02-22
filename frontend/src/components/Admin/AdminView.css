@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+.search-bar {
+  background-color: white;
+  padding: 10px;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.search-bar-1 {
+  background-color: white;
+  height: 48px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+}
+
+.search-icon {
+  margin-left: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.filter-icon {
+  margin-right: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.filter-choice {
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  text-decoration: underline;
+}
+.filter-choice-span {
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Alata", sans-serif;
+}
+.no-match {
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.profile-search-container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-container-1 {
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+  background-image: url("cool-background.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.profile-entries {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.profile-values {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.profile-detail {
+  height: 30px;
+}
+
+.profile-span {
+  margin-left: 10px;
+}

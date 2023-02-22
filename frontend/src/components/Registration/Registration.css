@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+.registration-form {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("cool-background.png");
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  font-family: "Alata", sans-serif;
+}
+
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px;
+  width: 61%;
+  outline: none;
+  border: none;
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+}
+
+.registration-button {
+  background: transparent;
+  width: 80%;
+  color: white;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.registration-choice {
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.birth-date {
+  width: 60%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  margin-top: -10px;
+  margin-bottom: -50px;
+}
+.date {
+  background: transparent;
+}
+.check {
+  margin-left: -40px;
+  margin-bottom: -10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .registration-form {
+    width: 80%;
+  }
+  .form-input {
+    width: 80%;
+  }
+}
+
+.back {
+  cursor: pointer;
+}
+.characters {
+  margin-right: 15px;
+  margin-left: -65px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  width: 50px;
+}
+.email-name-article{
+  display: flex;
+  flex-direction: row;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
